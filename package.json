@@ -21,6 +21,9 @@
   "bugs": "https://github.com/pattern-lab/edition-node/issues",
   "author": "Brian Muenzenmeyer",
   "scripts": {
+    "build": "node ./scripts/build.js",
+    "help": "node ./scripts/help.js",
+    "serve": "node ./scripts/serve.js"
   },
   "license": "MIT",
   "engines": {

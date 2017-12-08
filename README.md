@@ -35,7 +35,27 @@ npm install
 
 ## Getting Started
 
-Forthcoming
+This edition comes pre-packaged with a couple simple scripts. Extend them as needed.
+
+**build** patterns, copy assets, and construct ui
+
+``` bash
+npm run build
+```
+
+build patterns, copy assets, and construct ui, watch source files, and **serve** locally
+
+``` bash
+npm run serve
+```
+
+logs Pattern Lab Node usage and **help** content
+
+``` bash
+npm run help
+```
+
+To interact further with Pattern Lab Node, such as to install plugins or starterkits, it's suggested to incorporate the [Pattern Lab Node Command Line Interface](https://github.com/pattern-lab/patternlab-node-cli) or learn more about the [core API](https://github.com/pattern-lab/patternlab-node#usage).
 
 ## Updating Pattern Lab
 

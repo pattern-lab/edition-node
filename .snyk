@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@pattern-lab/patternlab-node > @pattern-lab/live-server > morgan > debug':
+        patched: '2019-05-18T02:53:42.592Z'
+  'npm:ms:20170412':
+    - '@pattern-lab/patternlab-node > @pattern-lab/live-server > morgan > debug > ms':
+        patched: '2019-05-18T02:53:42.592Z'
